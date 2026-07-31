@@ -1,85 +1,63 @@
 # Hola, soy Paolo Mejía 
 
-Estudiante de Ingeniería Informática (7mo ciclo)  
+Estudiante de Ingeniería Informática (8.° ciclo)
 Universidad Nacional Federico Villarreal
 
 ## Sobre mí
 
-Soy estudiante de Ingeniería Informática con interés en bases de datos, desarrollo backend, business intelligence y computación en la nube.
-
-Actualmente desarrollo soluciones web y móviles utilizando Flutter, ASP.NET Core, SQL Server y Microsoft Azure, aplicando buenas prácticas de desarrollo y modelado de datos para resolver problemas reales.
+Estudiante de Ingeniería Informática enfocado en desarrollo backend, full-stack y business intelligence. Diseño y desarrollo sistemas completos de principio a fin — desde el modelado de la base de datos hasta el frontend — aplicando buenas prácticas de arquitectura y seguridad. Complemento este perfil con Power BI, construyendo dashboards analíticos sobre los mismos datos que genero.
 
 ## Áreas de interés
 
-- Bases de Datos
+- Desarrollo Backend & Full-Stack
+- Bases de Datos y Modelado de Datos
 - Business Intelligence
-- Desarrollo Backend
+- Arquitectura de Software (multi-tenant, RBAC)
 - Cloud Computing
-- Sistemas de Información
 - Desarrollo Móvil (Flutter)
 
 ## Tecnologías
 
-### Lenguajes
-- C#
-- Dart
-- SQL
-- Python
+**Lenguajes:** C# · Dart · SQL · Python · Java
 
-### Bases de Datos
-- SQL Server
-- Azure SQL Database
+**Bases de Datos:** SQL Server · Azure SQL Database · PostgreSQL (Supabase)
 
-### Frameworks y Herramientas
-- ASP.NET Core
-- Entity Framework Core
-- Flutter
-- Git
-- GitHub
+**Frameworks y Herramientas:** ASP.NET Core · Entity Framework Core · Quarkus · Flutter · React · Git/GitHub
 
-### Cloud
-- Azure App Service
-- Azure SQL Database
+**Cloud:** Azure App Service · Azure SQL Database · Render · Netlify
 
-## Proyecto Destacado
+**Analítica:** Power BI (modelado de datos, DAX, Power Query)
 
-### CheckSD
+---
 
-Sistema integral para la gestión de asistencia y finanzas de una organización religiosa.
+## Proyectos Destacados
 
-#### Tecnologías
-Flutter • ASP.NET Core • SQL Server • Azure • JWT
+### 🔹 CheckSD — Sistema de gestión + Business Intelligence
+Sistema integral de gestión de asistencia, finanzas y auditoría para una organización religiosa, desarrollado de forma independiente y en uso real por la organización.
 
-#### Funcionalidades
+**Stack:** Flutter · ASP.NET Core (.NET 10) · SQL Server · Azure · JWT · Power BI
 
-- Gestión de integrantes
-- Gestión de redes y ministerios
-- Registro y seguimiento de asistencia
-- Dashboard estadístico
-- API REST
-- Control de acceso mediante roles
-- Despliegue en Microsoft Azure
-- Módulo financiero actualmente en desarrollo
+**Mi participación (proyecto individual):**
+- Diseño desde cero de un modelo de datos relacional normalizado de 29 tablas.
+- Desarrollo completo de la API REST (ASP.NET Core + EF Core), con autenticación JWT y autorización declarativa por rol.
+- Identifiqué y corregí una falla de autorización en producción, migrando la validación de un campo de negocio a atributos `[Authorize(Roles="...")]`.
+- Desarrollo del frontend en Flutter con arquitectura en capas (Screens → Providers → Services).
+- Migración de los reportes de asistencia a dashboards en Power BI, con medidas DAX y matriz de calor por red/mes.
 
-#### Mi participación
+### 🔹 FleetTrackPro — Plataforma SaaS multi-tenant de gestión de flotas
+Proyecto Integrador universitario (equipo de 5), donde lideré el desarrollo técnico.
 
-- Diseño de base de datos relacional en SQL Server
-- Desarrollo de API REST con ASP.NET Core
-- Desarrollo frontend con Flutter
-- Despliegue en Azure App Service y Azure SQL Database
-- Implementación de autenticación mediante JWT
+**Stack:** React/Vite · Quarkus · Supabase/PostgreSQL
 
-## Actualmente aprendiendo
+**Mi participación (líder técnico):**
+- Diseño de la arquitectura modular monolítica y definición del modelo de aislamiento multi-tenant (`id_empresa` en todas las tablas transaccionales).
+- Diseño e implementación del sistema RBAC completo (5 roles), validado con un script de auditoría automatizado (100/100 casos de prueba).
+- Desarrollo de los indicadores financieros CKV (Costo por Kilómetro) e IUV (Índice de Utilización Vehicular), siguiendo un manual técnico de referencia del sector.
+- Coordinación del equipo y distribución de tareas, manteniendo ownership del código base y las decisiones de arquitectura.
 
-- Power BI
-- Modelado de Datos
-- Business Intelligence
-- Visualización de Datos
+---
 
 ## Contacto
 
-LinkedIn  
-https://www.linkedin.com/in/paolo-mejia-43718b38a/
-
-Email  
-mejiapaolo35@gmail.com
+💼 [LinkedIn](https://www.linkedin.com/in/paolo-mejia-43718b38a/)
+📧 mejiapaolo35@gmail.com
